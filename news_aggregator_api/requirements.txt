@@ -1,0 +1,27 @@
+# Web Scraping
+beautifulsoup4==4.12.2
+selenium==4.10.0
+requests==2.31.0
+
+# NLP Libraries
+spacy==3.6.0
+nltk==3.8.1
+
+# API Framework (Choose one from flask,django and fastapi)
+#(using FastAPI)
+fastapi==0.103.1
+uvicorn==0.23.0
+
+# CSV and Data Handling
+pandas==2.0.3
+
+# Additional NLP Dependencies (optional, based on choice)
+# For spaCy
+spacy-lookups-data==1.0.3  # Required for some NLP models in spaCy
+
+# nltk downloads some datasets, so you might need these:
+wordcloud==1.9.2
+
+# Testing and Utilities
+pytest==7.4.2
+httpx==0.24.1  # For FastAPI testing
